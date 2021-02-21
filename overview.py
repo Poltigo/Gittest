@@ -22,3 +22,9 @@ def sum_array(x):
 
 
 print(sum_array(x))
+
+if x == True:
+    pass
+else:
+    print("Error")
+
