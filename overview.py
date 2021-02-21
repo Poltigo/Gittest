@@ -11,7 +11,8 @@ print(x)
 
 def pripri(x: array):
     for i, _ in enumerate(x):
-        print(i, x[i])
+        x[i] = i * x[i]
 
 
 pripri(x)
+print(x)
