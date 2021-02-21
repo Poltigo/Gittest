@@ -16,3 +16,6 @@ def superfunction(x: int):
 
 # something added
 x = 2020 * 20202
+
+y = x * 2
+
