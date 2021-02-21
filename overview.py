@@ -1,6 +1,5 @@
 # some description here
 
-from numpy.core.defchararray import array
 import pandas as pd
 import numpy as np
 
@@ -9,10 +8,17 @@ x = np.random.random(10)
 print(x)
 
 
-def pripri(x: array):
+def pripri(x):
     for i, _ in enumerate(x):
         x[i] = i * x[i]
 
 
 pripri(x)
 print(x)
+
+
+def sum_array(x):
+    return np.sum(x) + 55
+
+
+print(sum_array(x))
