@@ -6,3 +6,5 @@ def doing_somehting(x, y):
 
 
 ad_xon = doing_somehting(5, 6)
+
+yet = x + 12
