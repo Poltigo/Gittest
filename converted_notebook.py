@@ -51,3 +51,5 @@ print(empty)
 import numpy as np
 
 ar = np.array([2, 4])
+
+ar_sum = ar.sum()
