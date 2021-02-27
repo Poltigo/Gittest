@@ -53,3 +53,8 @@ import numpy as np
 ar = np.array([2, 4])
 
 ar_sum = ar.sum()
+
+k = np.random.rand(2)
+
+print("the value of ranom value is ", k)
+
